@@ -68,6 +68,8 @@ TEMPLATES = [
     },
 ]
 
+AUTH_USER_MODEL = 'Graffiti.Usuario' # Cambia el comportamiento por defecto para los usuarios
+
 WSGI_APPLICATION = 'GraffitisWeb.wsgi.application'
 
 
